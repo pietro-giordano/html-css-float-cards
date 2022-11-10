@@ -55,7 +55,7 @@ main {
 
 .card {
       margin: 10px;
-      width: calc((100% / 3) - 20px);                 0px);
+      width: calc((100% / 3) - 20px);            
       background-color: black;
       color: white;
 }
