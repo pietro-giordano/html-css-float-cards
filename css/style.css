@@ -32,36 +32,38 @@ h1 {
 
 /* Main */
 main {
-      border: 4px solid green;
+      /* border: 4px solid green; */
       max-width: 1100px;
       margin: 0 auto;
       height: 600px;
 }
 
 .paragraph {
-      border: 4px solid red;
+      /* border: 4px solid red; */
       width: 100%;
       text-align: center;
       text-align: justify;
-      text-align-last: center;
+      padding: 10px;
 }
 
 .card-container {
-      border: 4px solid blue;
+      /* border: 4px solid blue; */
       width: 100%;
 }
 
 .card-row {
-      border: 4px solid orange;
+      /* border: 4px solid orange; */
       width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
 }
 
 .card {
-      border: 4px solid yellow;
-      width: calc(100% / 3);
+      /* border: 4px solid yellow; */
+      margin: 10px;
+      width: calc((100% / 3) - 20px);                 0px);
       background-color: black;
       color: white;
-      /* height: 200px; */
 }
 
 img {
@@ -74,13 +76,13 @@ img {
       margin-top: 10px;
 }
 
-h3 {
+h3, .name {
       padding-bottom: 5px;
 }
 
-.name {
+/* .name {
       padding-bottom: 5px;
-}
+} */
 
 a {
       color:aqua;
