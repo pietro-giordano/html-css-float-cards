@@ -9,7 +9,13 @@
 body {
       font-family: 'Fredoka', sans-serif;
       /* font-family: 'Fredoka One', cursive; */
-      font-family: 'Open Sans', sans-serif;
+      /* font-family: 'Open Sans', sans-serif; */
+}
+
+.clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
 }
 
 /* Header */
@@ -22,3 +28,35 @@ h1 {
 }
 
 /* Main */
+main {
+      border: 4px solid green;
+      max-width: 1100px;
+      margin: 0 auto;
+      height: 600px;
+}
+
+.paragraph {
+      border: 4px solid red;
+      width: 100%;
+      text-align: center;
+}
+
+.card-container {
+      border: 4px solid blue;
+      width: 100%;
+}
+
+.card-row {
+      border: 4px solid orange;
+      width: 100%;
+}
+
+.card {
+      border: 4px solid yellow;
+      width: calc(100% / 3);
+      height: 200px;
+}
+
+.float-left {
+      float: left;
+}
